@@ -1,0 +1,326 @@
+{
+	"tokenColors": [
+		/* Global stuff */
+		{
+			"settings": {
+				"foreground": "#FFEBDA"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#AF9AB2"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#DCC174"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#FF86B4"
+			}
+		},
+		{
+			"name": "Property name",
+			"scope": [
+				"support.type.property-name.js",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FF86B4"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#FF86B4"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#FF86B4"
+			}
+		},
+		{
+			"name": "Invalid illegal",
+			"scope": [
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#F00"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#FFBE35"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FFBE35",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFBE35"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "meta.objectliteral",
+			"scope": [
+				"meta.objectliteral",
+				"meta.object.member.js"
+			],
+			"settings":{
+				"foreground": "#ffebda"
+			}
+		},
+		{
+			"name": "Dictionary",
+			"scope": [
+				"meta.structure.array",
+				"meta.structure.dictionary"
+			],
+			"settings":{
+				"foreground": "#DC9A7E"
+			}
+		},
+
+		// JAVASCRIPT
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function.js",
+				"support.function.js",
+				"support.function.console.js",
+				"support.function.dom.js"
+			],
+			"settings":{
+				"foreground": "#FFBE35"
+			}
+		},
+		{
+			"name": "Punctuations",
+			"scope": [
+				"punctuation.separator.key-value.js",
+				"punctuation.accessor.js",
+				"punctuation.separator.comma.js"
+			],
+			"settings":{
+				"foreground": "#DC9A7E"
+			}
+		},
+
+		// CSS
+		{
+			"name": "Seperator Key value",
+			"scope": [
+				"punctuation.separator.key-value.css",
+				"punctuation.separator.list.comma.css",
+				"punctuation.terminator.rule.css"
+			],
+			"settings": {
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Selector",
+			"scope": [
+				"meta.selector.css",
+				"entity.name.tag.css"
+			],
+			"settings":{
+				"foreground": "#FFBE35"
+			}
+		},
+		{
+			"name": "Property name",
+			"scope": [
+				"support.constant.property-value.css",
+				"constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#FFEBDA"
+			}
+		},
+		{
+			"name": "Property name",
+			"scope": "meta.property-name.css",
+			"settings": {
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Seperators",
+			"scope": "punctuation.separator.css",
+			"settings": {
+				"foreground": "#FFEBDA"
+			}
+		},
+		{
+			"name": "Seperators",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#DC9A7E"
+			}
+		},
+		{
+			"name": "Selector (ID)",
+			"scope": "entity.other.attribute-name.id.css",
+			"settings": {
+				// You should not use ids for selector, thats why they have a different color (should be a ugly color).
+				"foreground": "#FF7635"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#7B574F",
+		"editorCursor.foreground": "#FF86B4",
+		"editor.foreground": "#FFEBDA",
+		"editor.lineHighlightBackground": "#705048",
+		"editor.selectionBackground": "#5E4039",
+		"editorRuler.foreground": "#f00",
+		"editorLineNumber.foreground": "#5E4039",
+		"editorBracketMatch.background": "#5E4039",
+		"editorBracketMatch.border": "#5E4039",
+
+		// LINK
+		"textLink.foreground": "#AF9AB2",
+
+		// SIDEBAR
+		"sideBar.background": "#583932",
+		"sideBarTitle.foreground": "#FFEBDA",
+
+		// ACTIVITY BAR
+		"activityBar.background": "#402721",
+		"activityBarBadge.background": "#F92672",
+	
+		// TAB
+		"tab.activeBackground": "#402721",
+		"tab.activeForeground": "#FFEBDA",
+		"tab.inactiveBackground": "#5E4039",
+		"tab.inactiveForeground": "#FFEBDA",
+		"editorGroup.background": "#583932",
+
+		// STATUS BAR
+		"statusBar.background": "#DCC174",
+		"statusBar.foreground": "#5E4039",
+
+		// INVISIBLE CHARACTERS
+		"editorWhitespace.foreground": "#5E4039",
+		"editorIndentGuide.background": "#5E4039",
+
+		// PANEL
+		"panel.background": "#5E4039",
+
+		// ERRORS & WARNINGS
+		"editorError.foreground": "#f00",
+		"editorInfo.foreground": "#DCC174",
+		"editorWarning.foreground": "#FFBE35",
+
+		// GIT LENS
+		//"gitlens.gutterBackgroundColor": "#000", //Specifies the background color of the gutter blame annotations
+		"gitlens.gutterForegroundColor": "#000", //Specifies the foreground color of the gutter blame annotations
+		"gitlens.gutterUncommittedForegroundColor":	"#156f57", //Specifies the foreground color of an uncommitted line in the gutter blame annotations
+		//"gitlens.trailingLineBackgroundColor":	"#f00", //Specifies the background color of the trailing blame annotation
+		"gitlens.trailingLineForegroundColor":	"#5E4039", //Specifies the foreground color of the trailing blame annotation
+		"gitlens.lineHighlightBackgroundColor": "#00F" //Specifies the background color of the associated line highlights in blame annotations
+		//"gitlens.lineHighlightOverviewRulerColor": "#0F0", //Specifies the overview ruler color of the associated line highlights in blame annotations
+	},
+	"name": "Moose Theme"
+}
